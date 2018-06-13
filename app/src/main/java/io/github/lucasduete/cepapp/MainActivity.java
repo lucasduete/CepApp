@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
                 textView.setText(object.getString("localidade"));
 
                 textView = (TextView) findViewById(R.id.editTextEstado);
-                textView.setText(object.getString("estado"));
+                textView.setText(object.getString("uf"));
 
             } catch (Exception ex) {
                 Log.d(TAG, "Deu ruim ao preencher");
