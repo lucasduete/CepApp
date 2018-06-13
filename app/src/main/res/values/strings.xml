@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CepApp</string>
+    <string name="logradouro">Logradouro</string>
+    <string name="cep">CEP</string>
+    <string name="complemento">Complemento</string>
+    <string name="bairro">Bairro</string>
+    <string name="button">>>></string>
+    <string name="estado">Estado</string>
+    <string name="cidade">Cidade</string>
+</resources>

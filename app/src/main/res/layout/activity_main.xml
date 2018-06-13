@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="25dp" />
+
+    <TextView
+        android:id="@+id/textViewLogradouro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/logradouro" />
+
+    <EditText
+        android:id="@+id/editTextLogradouro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/logradouro" />
+
+    <TextView
+        android:id="@+id/textViewComplemento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/complemento" />
+
+    <EditText
+        android:id="@+id/editTextComplemento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/complemento" />
+
+    <TextView
+        android:id="@+id/textViewBairro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bairro" />
+
+    <EditText
+        android:id="@+id/editTextBairro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/bairro" />
+
+    <TextView
+        android:id="@+id/textViewCidade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cidade" />
+
+    <EditText
+        android:id="@+id/editTextCidade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/cidade" />
+
+    <TextView
+        android:id="@+id/textViewEstado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/estado" />
+
+    <EditText
+        android:id="@+id/editTextEstado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/estado" />
+
+    <TextView
+        android:id="@+id/textViewCep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cep" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editTextCep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="@string/cep" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/button" />
+    </LinearLayout>
+</LinearLayout>
